@@ -272,7 +272,7 @@ img {
   overflow: auto; /* clear-fix*/
 }
 
-.qualidade::after {
+.qualidade:after {
   content: "";
   width: 634px;
   height: 83px;

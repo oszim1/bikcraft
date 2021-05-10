@@ -59,9 +59,9 @@
   width: 229px;
   height: 48px;
   text-align: center;
-  padding-top: 16px;
-  
+  padding-top: 16px;  
 }
+
 .produto_info ul li:nth-child(1), .produto_info ul li:nth-child(2) {
   margin-bottom: 2px;
 }
