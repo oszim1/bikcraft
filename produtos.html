@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikcraft - Produtos</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/produtos.css">
-    <link rel="stylesheet" href="css/responsivo.css">
+    <meta charset="UTF-8">   
+    <title>Bikcraft - Confira nossos produtos</title>
+    <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bikcraft - Confira nossos produtos">
+    <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte">
+    <meta property="og:url" content="http://bikcraft.com/produtos.html">
+    <meta property="og:image" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
     <script>document.documentElement.classList.add("js");</script>
   </head>
 
@@ -54,13 +58,18 @@
         </ul>
       </div>
     </section>
-
     <section class="container produto_item">
       <div class="grid-11">
         <img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft Esporte">
         <h2>Esporte</h2>
-      </div><script src="./js/simple-anime.js"></script>
-      <script src="./js/script.js"></script>
+      </div>
+      <div class="grid-5 produto_icone"><img src="img/produtos/esporte.svg" alt="Bikcraft Passeio"></div>
+      <div class="grid-8"><img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Passeio"></div>      
+      <div class="grid-8 produto_info">
+        <p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na fórmula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte</p>
+        <ul>
+          <li>Conforto</li>
+          <li>Velocidade</li>
           <li>Design</li>
           <li>Versatilidade</li>
         </ul>
@@ -83,14 +92,13 @@
         </ul>
       </div>
     </section>
-
     <section class="orcamento">
       <div class="container">
         <h2 class="subtitulo">Orçamento</h2>
-        <form id="form_orcamento" class="form grid-8" action="">
+        <form id="form_orcamento" class="form grid-8" method="POST" action="./enviar.php">
           <label for="nome">Nome</label>
           <input type="text" id="nome">
-          <label for="Email">E-mail</label>
+          <label for="email">E-mail</label>
           <input type="email" id="email">
           <label for="telefone">Telefone</label>
           <input type="tel" id="telefone">
@@ -114,14 +122,12 @@
         </div>
       </div>
     </section>
-
-    <section class="quebra">
+    <div class="quebra">
       <blockquote class="quote-externo container">
         <p>"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana</p>
         <cite>William Morris</cite>
       </blockquote>
-    </section>
-
+    </div>
     <footer>
       <div class="footer">
         <div class="container">
